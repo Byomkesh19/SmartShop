@@ -1,0 +1,159 @@
+body{
+	
+	 background-size:100%;
+}
+header{
+	
+	height:140px;
+	background-color:#b3d9ff;
+	font-size:50px;
+	margin-bottom:5%;
+}
+
+img{
+	width:100px;
+	height:140px;
+}
+form{
+	
+	width:1300px;
+	height: auto;
+	padding: 30px 50px;
+	border-radius:20px;
+	background-color:#ffffff;
+	box-shadow:0 0 10px 0 #ffffff;
+	margin:auto;
+	margin-top:7%;
+	
+	
+}
+footer.rr{
+	background-color:#999999;
+	font-size:20px;
+	position:fixed;
+	height:80px;
+	width:100%;
+	bottom:0;
+	left:0;
+	margin-top:10%
+}
+.logout
+{
+
+	color:#800000;
+	float:right;
+	font-size:30px;
+	margin-right:30px;
+	margin-top:1%;
+
+}
+table
+{
+	width:80%;
+}
+td
+{
+	text-align:center;
+}
+h2{
+	margin-top:;
+	text-align:center;
+	font-size:30px;
+}
+
+p{
+	color:#00cc00;
+	font-weight:bold;
+	margin-top:;
+	margin-left:40%;
+	font-size:20px;
+}
+	
+#mySidenav a {
+	margin-top:10%;
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+#mySidenav a:hover {
+  left: 0;
+}
+#Home {
+  top: 20px;
+  background-color: #84ca87;
+}
+
+#PendingApprovals {
+  top: 100px;
+  background-color: #62b4f7;
+}
+#modify {
+  top: 100px;
+  background-color: #62b4f7;
+}
+#Inventory {
+  top: 190px;
+  background-color: #f76d62;
+}
+#About {
+  top: 260px;
+  background-color: #555
+}
+.button {
+  border-radius: 50px;
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width:400px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-left: 300px;
+  margin-top:200px;
+  
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+
